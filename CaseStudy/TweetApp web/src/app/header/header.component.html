@@ -1,0 +1,14 @@
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-color:  rgb(190, 255, 11);">
+    <a class="navbar-brand sticky-top" href="#">
+    <img src="assets/images/icon.png" width="30" height="30" class="d-inline-block align-top" alt=""><span style="font-weight: bold;" >TWEET APPLICATION</span>
+  </a>  
+      
+      <div class="collapse navbar-collapse " id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+        <a *ngIf="loginService.isUserLoggedIn()" class="nav-link " routerLink="/logout" style="font-size: 20Px;color: black;">
+          <img src="assets/images/logout.png" width="20" height="20" class="d-inline-block " alt=""><span style="font-weight: bold;" >Logout </span></a>&nbsp;
+        </ul>
+      </div>
+  </nav>
+</header>

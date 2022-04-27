@@ -1,0 +1,10 @@
+<div class="card sticky-top" *ngIf='user' style="width: 18rem;">
+    <img src="assets/images/user.png"  width="50" height="200" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">{{user.firstName}}</h5>
+      <small>@{{user.userName}}</small>
+    </div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item"><img src="assets/images/email.png" width="30" height="30" class="d-inline-block " alt="">{{user.email}}</li>
+    </ul>
+  </div>
